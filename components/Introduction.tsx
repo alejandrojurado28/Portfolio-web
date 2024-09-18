@@ -16,15 +16,15 @@ const Introduction = () => {
                         <Link href="#contact" className={buttonVariants()}>
                             <Mail className="mr-2" /> Contacta conmigo
                         </Link>
-                        <Link href="/cv-alejandro.pdf" 
+                        <Link href="/Currículum Vitae CV Alejandro Jurado Magdaleno.pdf" 
                             className={buttonVariants({ variant: 'secondary' })} target="_blank">
                             <Paperclip className="mr-2" /> Descargar CV
                         </Link>
                     </div>
                 </div>
-                {/* Ajustamos las clases de la imagen */}
+
                 <Image 
-                    className="mt-4 rounded-full mx-auto" // Centrado horizontal
+                    className="mt-4 rounded-full mx-auto"
                     src="/me.jpg" 
                     alt="Profile pic" 
                     width={200} 
